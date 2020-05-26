@@ -1,0 +1,14 @@
+""" codingbat codes Exercise """
+T = True
+F = False
+
+def sleep_in(weekday, vacation):
+  if weekday == F and vacation == F:
+    return T
+  elif weekday == T and vacation == F:
+   return F
+  elif weekday == T and vacation == T:
+    return T
+  elif weekday == F and vacation == T:
+    return T
+  
